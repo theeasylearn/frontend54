@@ -1,0 +1,41 @@
+1) create html page to display one 300 words english story. using heading, b, i, u font tag. 
+
+2) create html page to display basis information about bhavnagar city using heading, b,i,u font tag 
+
+3) create html page to display 3 gujarati culture recipe using heading, b, i, u and font tag.
+
+4) create a web page that will display 5 IPL team and player detail information. use div, p, span, ul, ol, li tag 
+
+5) create a web page that will display 5 countries detail. display name, capital, president/PM, population, GDP, per person income and places to visit. use div, p, span, ul, ol, li tag 
+
+6) create IPL point table using all table related tags. 
+
+7) create table that will display country name, area, capital, currency, president name in table format of 10 asian countries. 
+
+8) create image gallery that will display 20 photos of bhavnagar city in table format.
+https://images.template.net/wp-content/uploads/2018/11/Free-Basic-Resume-Template2.jpg
+
+
+9) create your resume using all output related html tags. 
+
+
+10) create web page that has horizontal for for change password web page. 
+11) create web page that has horizontal for for forgot password web page. 
+
+12) create web page that has register page which accept below input 
+        create vertical form (one line has message and other line has input)
+        fullname 
+        gender 
+        email
+        mobile
+        dob 
+        height (select) (4.5 to 6.5)
+        martial status 
+        no of child (select)
+        blood group (select)
+        hobbies (checkbox)
+        language (checkbox)
+        button
+
+13) create registration page for shaadi.com 
+
