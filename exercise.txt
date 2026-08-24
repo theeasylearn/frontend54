@@ -8,7 +8,6 @@
 
 6) create a web page to display cricket score board using table related tags. 
 
-
 7) create a web page that will display 5 IPL team and player detail information. use div, p, span, ul, ol, li tag 
 
 
