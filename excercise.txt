@@ -31,7 +31,7 @@ use section, article, aside, header, footer image, table, font, tag
 
 8) create web page that use datalist tag that help user to search for country
 
-9) create web page that use datalist tag that help user to search for fruits and vegitables. 
+9) create web page that use datalist tag that help user to search for fruits and vegetables. 
 
 
 9) create web page that will display 18 adhyay of geeta using details, summery, figure, figcaption, image tag etc. 
