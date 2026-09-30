@@ -33,6 +33,7 @@ use section, article, aside, header, footer image, table, font, tag
 
 9) create web page that use datalist tag that help user to search for fruits and vegetables. 
 
+10) create web page that will display 12 cricketer name with name and photo. use table, tr, td , figure, figcaption etc tag 
 
 9) create web page that will display 18 adhyay of geeta using details, summery, figure, figcaption, image tag etc. 
 
