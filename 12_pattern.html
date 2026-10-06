@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pattern</h1>
+    <form action="student.html">
+        <table border="2" align="center">
+            <tr>
+                <td>Pincode</td>
+                <td>
+                    <input type="text" pattern="[0-9]{6}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pancard number (XXXXX9999X) X = english alphabets 9 = digits
+                </td>
+                <td>
+                    <input type="text" pattern="[a-ZA-Z]{5}[0-9]{4}[a-ZA-Z]{1}">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
