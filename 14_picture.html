@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <picture>
+        <!-- 1. ART DIRECTION -->
+        <source media="(max-width: 600px)" srcset="https://placehold.co/600x600/png?text=Mobile+Square+Crop">
+
+        <!-- 2. FORMAT SWITCHING -->
+        <source type="image/webp" srcset="https://placehold.co/800x400/webp?text=Desktop+WebP">
+
+        <!-- 3. RESOLUTION SWITCHING & FALLBACK -->
+        <img src="https://placehold.co/800x400/png?text=Default+800w" alt="A scenic mountain landscape" srcset="https://placehold.co/400x200/png?text=Small+400w 400w, 
+            https://placehold.co/800x400/png?text=Default+800w 800w, 
+            https://placehold.co/1200x600/png?text=Large+1200w 1200w" sizes="(max-width: 900px) 100vw, 
+           50vw">
+    </picture>
+</body>
+
+</html>
