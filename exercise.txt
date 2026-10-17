@@ -1,0 +1,34 @@
+**Exercise 1**
+apply Arial font-family to h1 tag. apply 48px font-size to h1 tag. apply bold font-weight to h1 tag. apply center text-align to h1 tag. apply uppercase text-transform to h1 tag.
+apply Georgia font-family to h2 tag. apply 32px font-size to h2 tag. apply italic font-style to h2 tag. apply red color to h2 tag. apply underline text-decoration to h2 tag.
+apply Verdana font-family to p tag. apply 16px font-size to p tag. apply 1.5 line-height to p tag. apply justify text-align to p tag. apply 1px letter-spacing to p tag.
+apply cursive font-family to a tag. apply 18px font-size to a tag. apply none text-decoration to a tag. apply blue color to a tag. apply bold font-weight to a tag.
+apply Times font-family to span tag. apply 14px font-size to span tag. apply italic font-style to span tag. apply lowercase text-transform to span tag. apply 2px word-spacing to span tag.
+
+**Exercise 2**
+apply Tahoma font-family to h3 tag. apply 24px font-size to h3 tag. apply 600 font-weight to h3 tag. apply right text-align to h3 tag. apply overline text-decoration to h3 tag.
+apply Courier font-family to h4 tag. apply 20px font-size to h4 tag. apply normal font-style to h4 tag. apply green color to h4 tag. apply capitalize text-transform to h4 tag.
+apply Arial font-family to div tag. apply 14px font-size to div tag. apply 2 line-height to div tag. apply left text-align to div tag. apply 50px text-indent to div tag.
+apply sans-serif font-family to li tag. apply 16px font-size to li tag. apply bold font-weight to li tag. apply 2px letter-spacing to li tag. apply purple color to li tag.
+apply Georgia font-family to b tag. apply 18px font-size to b tag. apply uppercase text-transform to b tag. apply center text-align to b tag. apply 3px word-spacing to b tag.
+
+**Exercise 3**
+apply Impact font-family to h5 tag. apply 18px font-size to h5 tag. apply 300 font-weight to h5 tag. apply center text-align to h5 tag. apply 2px letter-spacing to h5 tag.
+apply Trebuchet font-family to h6 tag. apply 16px font-size to h6 tag. apply italic font-style to h6 tag. apply gray color to h6 tag. apply uppercase text-transform to h6 tag.
+apply Arial font-family to strong tag. apply 20px font-size to strong tag. apply bold font-weight to strong tag. apply underline text-decoration to strong tag. apply 1px word-spacing to strong tag.
+apply serif font-family to em tag. apply 18px font-size to em tag. apply italic font-style to em tag. apply 1.8 line-height to em tag. apply right text-align to em tag.
+apply Georgia font-family to blockquote tag. apply 22px font-size to blockquote tag. apply justify text-align to blockquote tag. apply 40px text-indent to blockquote tag. apply navy color to blockquote tag.
+
+**Exercise 4**
+apply Verdana font-family to label tag. apply 14px font-size to label tag. apply bold font-weight to label tag. apply uppercase text-transform to label tag. apply 1px letter-spacing to label tag.
+apply Arial font-family to button tag. apply 16px font-size to button tag. apply center text-align to button tag. apply white color to button tag. apply none text-decoration to button tag.
+apply Times font-family to caption tag. apply 20px font-size to caption tag. apply italic font-style to caption tag. apply 1.5 line-height to caption tag. apply 5px word-spacing to caption tag.
+apply sans-serif font-family to th tag. apply 18px font-size to th tag. apply bold font-weight to th tag. apply center text-align to th tag. apply capitalize text-transform to th tag.
+apply Courier font-family to td tag. apply 16px font-size to td tag. apply normal font-weight to td tag. apply left text-align to td tag. apply black color to td tag.
+
+**Exercise 5**
+apply Arial font-family to header tag. apply 36px font-size to header tag. apply center text-align to header tag. apply uppercase text-transform to header tag. apply 3px letter-spacing to header tag.
+apply sans-serif font-family to footer tag. apply 12px font-size to footer tag. apply 1.2 line-height to footer tag. apply center text-align to footer tag. apply gray color to footer tag.
+apply Georgia font-family to article tag. apply 18px font-size to article tag. apply justify text-align to article tag. apply 2 line-height to article tag. apply 30px text-indent to article tag.
+apply Verdana font-family to section tag. apply 24px font-size to section tag. apply bold font-weight to section tag. apply capitalize text-transform to section tag. apply 2px word-spacing to section tag.
+apply cursive font-family to aside tag. apply 16px font-size to aside tag. apply italic font-style to aside tag. apply right text-align to aside tag. apply underline text-decoration to aside tag.
