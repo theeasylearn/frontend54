@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div,
+        p,
+        article,
+        section,
+        footer {
+            background-color: aliceblue;
+            color: blue;
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            font-size: 48px;
+            text-align: center;
+        }
+
+        p {
+            position: absolute;
+            top: 300px;
+            left: 720px;
+        }
+
+        article {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            z-index: 1;
+        }
+
+        section {
+            background-color: blueviolet;
+            color: white;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 2;
+        }
+
+        footer {
+            background-color: brown;
+            color: white;
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+        }
+        h1 
+        {
+            visibility: hidden; /* tag will not be displayed but it occupy space */
+            /* display: none;  tag will not be displayed and will not occupy space */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>layout related properties </h1>
+    <div>1</div>
+    <p>2</p>
+    <article>
+        3
+    </article>
+    <section>
+        4
+    </section>
+    <footer>
+        5
+    </footer>
+</body>
+
+</html>
