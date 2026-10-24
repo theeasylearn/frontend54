@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* id selector style  */
+        #heading {
+            color: white;
+            background-color: blueviolet;
+            position: sticky;
+            top: 0px;
+            left: 0px;
+            padding: 20px 0px;
+            /* 1st value is for top and bottom 2nd value is for left & right */
+
+            margin-bottom: 20px;
+        }
+
+        section {
+            padding-left: 100px;
+            padding-right: 100px;
+        }
+
+        /* browser select p tag which are direct child of section tag */
+        section>p {
+            text-align: justify;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        #footer {
+            color: white;
+            background-color: blueviolet;
+            position: sticky;
+            bottom: 0px;
+            left: 0px;
+            margin-top: 20px;
+            padding: 10px 0px;
+        }
+
+        /* browser select div tag which are direct child of footer */
+        #footer>div {
+            display: inline-block;
+            width: 33%;
+            vertical-align: top; 
+        }
+
+        #footer>div>nav>ul {
+            list-style-type: none;
+        }
+
+        #footer>div>nav>ul>li>a {
+            color: white;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="heading">
+        <h1>THE EASYLEARN ACADEMY</h1>
+    </header>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, error! Aperiam quibusdam laboriosam fuga enim
+            itaque nihil nulla quia dolorum in odio quos reprehenderit, ipsa quasi iste expedita harum dicta iusto
+            similique. Consequuntur ad perspiciatis hic voluptatem rem, id, aliquid animi ipsa dolorem iure porro est
+            incidunt rerum accusamus eligendi excepturi illum? Neque, minus delectus ut perspiciatis eius, cum iste
+            debitis autem ad, aliquam qui. Minus voluptates expedita eos repellat explicabo nemo vitae in. Totam quis
+            adipisci ad? Aliquam laborum iure officiis minima enim, similique incidunt saepe voluptas expedita
+            voluptatibus repellat dolores, facilis eaque nulla hic! Itaque facere eos in minima est. Eaque fugit vero
+            autem rerum modi totam laborum placeat, quod voluptates consequuntur, quas distinctio minus, accusamus ut
+            dolorum nulla impedit. Omnis praesentium sint dolores sunt. Dolore architecto, eligendi neque quam quibusdam
+            vero aliquid corrupti voluptatibus maxime at quidem libero doloremque est delectus optio aspernatur maiores
+            natus expedita ut fuga dignissimos earum vel. Minus veniam deserunt earum eum deleniti, aspernatur
+            temporibus et excepturi nulla dolorum voluptas sequi quo natus labore? Porro a recusandae hic magnam?
+            Corporis sunt amet at? Natus ipsam repellat corporis soluta asperiores modi rerum esse? Magni amet dolore
+            tempora aperiam praesentium eaque maxime laborum. Quia, ducimus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, error! Aperiam quibusdam laboriosam fuga enim
+            itaque nihil nulla quia dolorum in odio quos reprehenderit, ipsa quasi iste expedita harum dicta iusto
+            similique. Consequuntur ad perspiciatis hic voluptatem rem, id, aliquid animi ipsa dolorem iure porro est
+            incidunt rerum accusamus eligendi excepturi illum? Neque, minus delectus ut perspiciatis eius, cum iste
+            debitis autem ad, aliquam qui. Minus voluptates expedita eos repellat explicabo nemo vitae in. Totam quis
+            adipisci ad? Aliquam laborum iure officiis minima enim, similique incidunt saepe voluptas expedita
+            voluptatibus repellat dolores, facilis eaque nulla hic! Itaque facere eos in minima est. Eaque fugit vero
+            autem rerum modi totam laborum placeat, quod voluptates consequuntur, quas distinctio minus, accusamus ut
+            dolorum nulla impedit. Omnis praesentium sint dolores sunt. Dolore architecto, eligendi neque quam quibusdam
+            vero aliquid corrupti voluptatibus maxime at quidem libero doloremque est delectus optio aspernatur maiores
+            natus expedita ut fuga dignissimos earum vel. Minus veniam deserunt earum eum deleniti, aspernatur
+            temporibus et excepturi nulla dolorum voluptas sequi quo natus labore? Porro a recusandae hic magnam?
+            Corporis sunt amet at? Natus ipsam repellat corporis soluta asperiores modi rerum esse? Magni amet dolore
+            tempora aperiam praesentium eaque maxime laborum. Quia, ducimus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, error! Aperiam quibusdam laboriosam fuga enim
+            itaque nihil nulla quia dolorum in odio quos reprehenderit, ipsa quasi iste expedita harum dicta iusto
+            similique. Consequuntur ad perspiciatis hic voluptatem rem, id, aliquid animi ipsa dolorem iure porro est
+            incidunt rerum accusamus eligendi excepturi illum? Neque, minus delectus ut perspiciatis eius, cum iste
+            debitis autem ad, aliquam qui. Minus voluptates expedita eos repellat explicabo nemo vitae in. Totam quis
+            adipisci ad? Aliquam laborum iure officiis minima enim, similique incidunt saepe voluptas expedita
+            voluptatibus repellat dolores, facilis eaque nulla hic! Itaque facere eos in minima est. Eaque fugit vero
+            autem rerum modi totam laborum placeat, quod voluptates consequuntur, quas distinctio minus, accusamus ut
+            dolorum nulla impedit. Omnis praesentium sint dolores sunt. Dolore architecto, eligendi neque quam quibusdam
+            vero aliquid corrupti voluptatibus maxime at quidem libero doloremque est delectus optio aspernatur maiores
+            natus expedita ut fuga dignissimos earum vel. Minus veniam deserunt earum eum deleniti, aspernatur
+            temporibus et excepturi nulla dolorum voluptas sequi quo natus labore? Porro a recusandae hic magnam?
+            Corporis sunt amet at? Natus ipsam repellat corporis soluta asperiores modi rerum esse? Magni amet dolore
+            tempora aperiam praesentium eaque maxime laborum. Quia, ducimus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, error! Aperiam quibusdam laboriosam fuga enim
+            itaque nihil nulla quia dolorum in odio quos reprehenderit, ipsa quasi iste expedita harum dicta iusto
+            similique. Consequuntur ad perspiciatis hic voluptatem rem, id, aliquid animi ipsa dolorem iure porro est
+            incidunt rerum accusamus eligendi excepturi illum? Neque, minus delectus ut perspiciatis eius, cum iste
+            debitis autem ad, aliquam qui. Minus voluptates expedita eos repellat explicabo nemo vitae in. Totam quis
+            adipisci ad? Aliquam laborum iure officiis minima enim, similique incidunt saepe voluptas expedita
+            voluptatibus repellat dolores, facilis eaque nulla hic! Itaque facere eos in minima est. Eaque fugit vero
+            autem rerum modi totam laborum placeat, quod voluptates consequuntur, quas distinctio minus, accusamus ut
+            dolorum nulla impedit. Omnis praesentium sint dolores sunt. Dolore architecto, eligendi neque quam quibusdam
+            vero aliquid corrupti voluptatibus maxime at quidem libero doloremque est delectus optio aspernatur maiores
+            natus expedita ut fuga dignissimos earum vel. Minus veniam deserunt earum eum deleniti, aspernatur
+            temporibus et excepturi nulla dolorum voluptas sequi quo natus labore? Porro a recusandae hic magnam?
+            Corporis sunt amet at? Natus ipsam repellat corporis soluta asperiores modi rerum esse? Magni amet dolore
+            tempora aperiam praesentium eaque maxime laborum. Quia, ducimus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, error! Aperiam quibusdam laboriosam fuga enim
+            itaque nihil nulla quia dolorum in odio quos reprehenderit, ipsa quasi iste expedita harum dicta iusto
+            similique. Consequuntur ad perspiciatis hic voluptatem rem, id, aliquid animi ipsa dolorem iure porro est
+            incidunt rerum accusamus eligendi excepturi illum? Neque, minus delectus ut perspiciatis eius, cum iste
+            debitis autem ad, aliquam qui. Minus voluptates expedita eos repellat explicabo nemo vitae in. Totam quis
+            adipisci ad? Aliquam laborum iure officiis minima enim, similique incidunt saepe voluptas expedita
+            voluptatibus repellat dolores, facilis eaque nulla hic! Itaque facere eos in minima est. Eaque fugit vero
+            autem rerum modi totam laborum placeat, quod voluptates consequuntur, quas distinctio minus, accusamus ut
+            dolorum nulla impedit. Omnis praesentium sint dolores sunt. Dolore architecto, eligendi neque quam quibusdam
+            vero aliquid corrupti voluptatibus maxime at quidem libero doloremque est delectus optio aspernatur maiores
+            natus expedita ut fuga dignissimos earum vel. Minus veniam deserunt earum eum deleniti, aspernatur
+            temporibus et excepturi nulla dolorum voluptas sequi quo natus labore? Porro a recusandae hic magnam?
+            Corporis sunt amet at? Natus ipsam repellat corporis soluta asperiores modi rerum esse? Magni amet dolore
+            tempora aperiam praesentium eaque maxime laborum. Quia, ducimus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, error! Aperiam quibusdam laboriosam fuga enim
+            itaque nihil nulla quia dolorum in odio quos reprehenderit, ipsa quasi iste expedita harum dicta iusto
+            similique. Consequuntur ad perspiciatis hic voluptatem rem, id, aliquid animi ipsa dolorem iure porro est
+            incidunt rerum accusamus eligendi excepturi illum? Neque, minus delectus ut perspiciatis eius, cum iste
+            debitis autem ad, aliquam qui. Minus voluptates expedita eos repellat explicabo nemo vitae in. Totam quis
+            adipisci ad? Aliquam laborum iure officiis minima enim, similique incidunt saepe voluptas expedita
+            voluptatibus repellat dolores, facilis eaque nulla hic! Itaque facere eos in minima est. Eaque fugit vero
+            autem rerum modi totam laborum placeat, quod voluptates consequuntur, quas distinctio minus, accusamus ut
+            dolorum nulla impedit. Omnis praesentium sint dolores sunt. Dolore architecto, eligendi neque quam quibusdam
+            vero aliquid corrupti voluptatibus maxime at quidem libero doloremque est delectus optio aspernatur maiores
+            natus expedita ut fuga dignissimos earum vel. Minus veniam deserunt earum eum deleniti, aspernatur
+            temporibus et excepturi nulla dolorum voluptas sequi quo natus labore? Porro a recusandae hic magnam?
+            Corporis sunt amet at? Natus ipsam repellat corporis soluta asperiores modi rerum esse? Magni amet dolore
+            tempora aperiam praesentium eaque maxime laborum. Quia, ducimus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, error! Aperiam quibusdam laboriosam fuga enim
+            itaque nihil nulla quia dolorum in odio quos reprehenderit, ipsa quasi iste expedita harum dicta iusto
+            similique. Consequuntur ad perspiciatis hic voluptatem rem, id, aliquid animi ipsa dolorem iure porro est
+            incidunt rerum accusamus eligendi excepturi illum? Neque, minus delectus ut perspiciatis eius, cum iste
+            debitis autem ad, aliquam qui. Minus voluptates expedita eos repellat explicabo nemo vitae in. Totam quis
+            adipisci ad? Aliquam laborum iure officiis minima enim, similique incidunt saepe voluptas expedita
+            voluptatibus repellat dolores, facilis eaque nulla hic! Itaque facere eos in minima est. Eaque fugit vero
+            autem rerum modi totam laborum placeat, quod voluptates consequuntur, quas distinctio minus, accusamus ut
+            dolorum nulla impedit. Omnis praesentium sint dolores sunt. Dolore architecto, eligendi neque quam quibusdam
+            vero aliquid corrupti voluptatibus maxime at quidem libero doloremque est delectus optio aspernatur maiores
+            natus expedita ut fuga dignissimos earum vel. Minus veniam deserunt earum eum deleniti, aspernatur
+            temporibus et excepturi nulla dolorum voluptas sequi quo natus labore? Porro a recusandae hic magnam?
+            Corporis sunt amet at? Natus ipsam repellat corporis soluta asperiores modi rerum esse? Magni amet dolore
+            tempora aperiam praesentium eaque maxime laborum. Quia, ducimus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, error! Aperiam quibusdam laboriosam fuga enim
+            itaque nihil nulla quia dolorum in odio quos reprehenderit, ipsa quasi iste expedita harum dicta iusto
+            similique. Consequuntur ad perspiciatis hic voluptatem rem, id, aliquid animi ipsa dolorem iure porro est
+            incidunt rerum accusamus eligendi excepturi illum? Neque, minus delectus ut perspiciatis eius, cum iste
+            debitis autem ad, aliquam qui. Minus voluptates expedita eos repellat explicabo nemo vitae in. Totam quis
+            adipisci ad? Aliquam laborum iure officiis minima enim, similique incidunt saepe voluptas expedita
+            voluptatibus repellat dolores, facilis eaque nulla hic! Itaque facere eos in minima est. Eaque fugit vero
+            autem rerum modi totam laborum placeat, quod voluptates consequuntur, quas distinctio minus, accusamus ut
+            dolorum nulla impedit. Omnis praesentium sint dolores sunt. Dolore architecto, eligendi neque quam quibusdam
+            vero aliquid corrupti voluptatibus maxime at quidem libero doloremque est delectus optio aspernatur maiores
+            natus expedita ut fuga dignissimos earum vel. Minus veniam deserunt earum eum deleniti, aspernatur
+            temporibus et excepturi nulla dolorum voluptas sequi quo natus labore? Porro a recusandae hic magnam?
+            Corporis sunt amet at? Natus ipsam repellat corporis soluta asperiores modi rerum esse? Magni amet dolore
+            tempora aperiam praesentium eaque maxime laborum. Quia, ducimus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, error! Aperiam quibusdam laboriosam fuga enim
+            itaque nihil nulla quia dolorum in odio quos reprehenderit, ipsa quasi iste expedita harum dicta iusto
+            similique. Consequuntur ad perspiciatis hic voluptatem rem, id, aliquid animi ipsa dolorem iure porro est
+            incidunt rerum accusamus eligendi excepturi illum? Neque, minus delectus ut perspiciatis eius, cum iste
+            debitis autem ad, aliquam qui. Minus voluptates expedita eos repellat explicabo nemo vitae in. Totam quis
+            adipisci ad? Aliquam laborum iure officiis minima enim, similique incidunt saepe voluptas expedita
+            voluptatibus repellat dolores, facilis eaque nulla hic! Itaque facere eos in minima est. Eaque fugit vero
+            autem rerum modi totam laborum placeat, quod voluptates consequuntur, quas distinctio minus, accusamus ut
+            dolorum nulla impedit. Omnis praesentium sint dolores sunt. Dolore architecto, eligendi neque quam quibusdam
+            vero aliquid corrupti voluptatibus maxime at quidem libero doloremque est delectus optio aspernatur maiores
+            natus expedita ut fuga dignissimos earum vel. Minus veniam deserunt earum eum deleniti, aspernatur
+            temporibus et excepturi nulla dolorum voluptas sequi quo natus labore? Porro a recusandae hic magnam?
+            Corporis sunt amet at? Natus ipsam repellat corporis soluta asperiores modi rerum esse? Magni amet dolore
+            tempora aperiam praesentium eaque maxime laborum. Quia, ducimus.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, error! Aperiam quibusdam laboriosam fuga enim
+            itaque nihil nulla quia dolorum in odio quos reprehenderit, ipsa quasi iste expedita harum dicta iusto
+            similique. Consequuntur ad perspiciatis hic voluptatem rem, id, aliquid animi ipsa dolorem iure porro est
+            incidunt rerum accusamus eligendi excepturi illum? Neque, minus delectus ut perspiciatis eius, cum iste
+            debitis autem ad, aliquam qui. Minus voluptates expedita eos repellat explicabo nemo vitae in. Totam quis
+            adipisci ad? Aliquam laborum iure officiis minima enim, similique incidunt saepe voluptas expedita
+            voluptatibus repellat dolores, facilis eaque nulla hic! Itaque facere eos in minima est. Eaque fugit vero
+            autem rerum modi totam laborum placeat, quod voluptates consequuntur, quas distinctio minus, accusamus ut
+            dolorum nulla impedit. Omnis praesentium sint dolores sunt. Dolore architecto, eligendi neque quam quibusdam
+            vero aliquid corrupti voluptatibus maxime at quidem libero doloremque est delectus optio aspernatur maiores
+            natus expedita ut fuga dignissimos earum vel. Minus veniam deserunt earum eum deleniti, aspernatur
+            temporibus et excepturi nulla dolorum voluptas sequi quo natus labore? Porro a recusandae hic magnam?
+            Corporis sunt amet at? Natus ipsam repellat corporis soluta asperiores modi rerum esse? Magni amet dolore
+            tempora aperiam praesentium eaque maxime laborum. Quia, ducimus.</p>
+    </section>
+    <footer id="footer">
+        <div>
+            <b>Address</b>
+            105, Eva, Surbhi Mall, Waghawadi Rd., <br />
+            opp. akshwarwadi temple, Hill Drive, Bhavnagar, Gujarat 364001
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="">Sample Link</a></li>
+                    <li><a href="">Sample Link</a></li>
+                    <li><a href="">Sample Link</a></li>
+                    <li><a href="">Sample Link</a></li>
+                    <li><a href="">Sample Link</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <b>Contact us</b>
+            <hr>
+            Mobile :- 9662512857 <br />
+            Email :- theeasylearn@gmail.com
+        </div>
+    </footer>
+</body>
+
+</html>
