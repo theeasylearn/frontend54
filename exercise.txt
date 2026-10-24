@@ -32,3 +32,263 @@ apply sans-serif font-family to footer tag. apply 12px font-size to footer tag. 
 apply Georgia font-family to article tag. apply 18px font-size to article tag. apply justify text-align to article tag. apply 2 line-height to article tag. apply 30px text-indent to article tag.
 apply Verdana font-family to section tag. apply 24px font-size to section tag. apply bold font-weight to section tag. apply capitalize text-transform to section tag. apply 2px word-spacing to section tag.
 apply cursive font-family to aside tag. apply 16px font-size to aside tag. apply italic font-style to aside tag. apply right text-align to aside tag. apply underline text-decoration to aside tag.
+----------------------------------------------
+Exercise Set 1: Box Model Properties (Based on 3_box_model.html)
+apply 200px height to div tag. apply 200px width to div tag. apply 4px border-width to div tag. apply double border-style to div tag. apply black border-color to div tag.
+apply border-box box-sizing to p tag. apply 10px margin-top to p tag. apply 10px margin-bottom to p tag. apply 50px margin-left to p tag. apply 50px margin-right to p tag.
+apply 10px padding-left to section tag. apply 10px padding-right to section tag. apply 10px padding-top to section tag. apply 10px padding-bottom to section tag. apply scroll overflow to section tag.
+apply 200px height to article tag. apply 200px width to article tag. apply border-box box-sizing to article tag. apply 10px margin-top to article tag. apply 50px margin-left to article tag.
+apply 4px border-width to main tag. apply double border-style to main tag. apply black border-color to main tag. apply 10px padding-bottom to main tag. apply scroll overflow to main tag.   Exercise Set 2: Background Properties (Based on 4_background_properties.html)
+apply yellow background-color to div tag. apply 2px border to div tag. apply 10px margin-bottom to div tag. apply xx-large font-size to div tag. apply 50% opacity to div tag.
+apply url('logo.png') background-image to body tag. apply no-repeat background-repeat to body tag. apply center background-position to body tag. apply fixed background-attachment to body tag. apply multiply background-blend-mode to body tag.
+apply aliceblue background-color to section tag. apply url('logo.png') background-image to section tag. apply no-repeat background-repeat to section tag. apply 200px width to section tag. apply 200px height to section tag.
+apply yellow background-color to header tag. apply red color to header tag. apply center text-align to header tag. apply 50% opacity to header tag. apply xx-large font-size to header tag.
+apply aliceblue background-color to footer tag. apply fixed background-attachment to footer tag. apply multiply background-blend-mode to footer tag. apply 200px height to footer tag. apply 200px width to footer tag.   Exercise Set 3: Inline-Block Layout (Based on 5_layout.html)
+apply aliceblue background-color to div tag. apply blue color to div tag. apply 100px height to div tag. apply 100px width to div tag. apply inline-block display to div tag.
+apply 1px border to article tag. apply 48px font-size to article tag. apply center text-align to article tag. apply inline-block display to article tag. apply blue color to article tag.
+apply aliceblue background-color to section tag. apply 100px height to section tag. apply 100px width to section tag. apply center text-align to section tag. apply inline-block display to section tag.
+apply 1px border to p tag. apply 48px font-size to p tag. apply blue color to p tag. apply 100px width to p tag. apply inline-block display to p tag.
+apply aliceblue background-color to span tag. apply 100px height to span tag. apply 48px font-size to span tag. apply center text-align to span tag. apply inline-block display to span tag.   Exercise Set 4: Float Layout (Based on 6_layout_2.html)
+apply aliceblue background-color to div tag. apply blue color to div tag. apply 100px height to div tag. apply 100px width to div tag. apply left float to div tag.
+apply both clear to p tag. apply 48px font-size to p tag. apply center text-align to p tag. apply 1px border to p tag. apply left float to p tag.
+apply aliceblue background-color to article tag. apply 100px height to article tag. apply 100px width to article tag. apply 1px border to article tag. apply left float to article tag.
+apply blue color to section tag. apply 48px font-size to section tag. apply center text-align to section tag. apply 100px width to section tag. apply left float to section tag.
+apply both clear to footer tag. apply aliceblue background-color to footer tag. apply 100px height to footer tag. apply 1px border to footer tag. apply left float to footer tag.   Exercise Set 5: Absolute Positioning (Based on 7_layout_3.html)
+apply aliceblue background-color to div tag. apply blue color to div tag. apply 100px height to div tag. apply 100px width to div tag. apply 48px font-size to div tag.
+apply absolute position to p tag. apply 300px top to p tag. apply 720px left to p tag. apply center text-align to p tag. apply 1px border to p tag.
+apply absolute position to article tag. apply 0px bottom to article tag. apply 0px right to article tag. apply 1 z-index to article tag. apply aliceblue background-color to article tag.
+apply blueviolet background-color to section tag. apply white color to section tag. apply absolute position to section tag. apply 20px bottom to section tag. apply 2 z-index to section tag.
+apply brown background-color to footer tag. apply white color to footer tag. apply absolute position to footer tag. apply 40px bottom to footer tag. apply hidden visibility to footer tag.   Exercise Set 6: Class-Based Formatting (Based on 8_class_selector.html)
+apply 2px border to div tag. apply 10px margin-bottom to div tag. apply yellow background-color to div tag. apply red color to div tag. apply solid border-style to div tag.
+apply 2px border to p tag. apply 10px margin-bottom to p tag. apply yellow background-color to p tag. apply red color to p tag. apply black border-color to p tag.
+apply yellow background-color to section tag. apply red color to section tag. apply 2px border to section tag. apply 10px margin-bottom to section tag. apply solid border-style to section tag.
+apply 10px margin-bottom to article tag. apply 2px border to article tag. apply yellow background-color to article tag. apply red color to article tag. apply black border-color to article tag.
+apply yellow background-color to span tag. apply red color to span tag. apply 2px border to span tag. apply 10px margin-bottom to span tag. apply solid border-style to span tag.   Exercise Set 7: ID & Nested Selectors (Based on 9_id_selector.html)
+apply white color to header tag. apply blueviolet background-color to header tag. apply sticky position to header tag. apply 0px top to header tag. apply 20px margin-bottom to header tag.
+apply 100px padding-left to section tag. apply 100px padding-right to section tag. apply justify text-align to section tag. apply 20px font-size to section tag. apply 10px margin-bottom to section tag.
+apply white color to footer tag. apply blueviolet background-color to footer tag. apply sticky position to footer tag. apply 0px bottom to footer tag. apply 20px margin-top to footer tag.
+apply inline-block display to div tag. apply 33% width to div tag. apply top vertical-align to div tag. apply none list-style-type to div tag. apply white color to div tag.
+apply none list-style-type to ul tag. apply white color to a tag. apply uppercase text-transform to a tag. apply none text-decoration to a tag. apply 0px padding to a tag. 
+
+-------------------------------------------------------------------
+### **3_box_model.html**
+
+**Exercise 2**
+apply 150px height to section tag. apply 150px width to section tag. apply 2px border-width to section tag. apply solid border-style to section tag. apply red border-color to section tag.
+apply border-box box-sizing to article tag. apply 20px margin-top to article tag. apply 20px margin-bottom to article tag. apply 30px margin-left to article tag. apply 30px margin-right to article tag.
+apply 15px padding-left to nav tag. apply 15px padding-right to nav tag. apply 15px padding-top to nav tag. apply 15px padding-bottom to nav tag. apply hidden overflow to nav tag.
+apply 10px box-shadow to aside tag. apply black color to aside tag. apply 300px height to aside tag. apply 100px width to aside tag. apply border-box box-sizing to aside tag.
+apply dashed border-style to main tag. apply blue border-color to main tag. apply 3px border-width to main tag. apply 25px padding-top to main tag. apply 25px margin-top to main tag.
+
+**Exercise 3**
+apply 250px height to header tag. apply 100% width to header tag. apply 5px border-width to header tag. apply groove border-style to header tag. apply gray border-color to header tag.
+apply border-box box-sizing to footer tag. apply 5px margin-top to footer tag. apply 5px margin-bottom to footer tag. apply 10px margin-left to footer tag. apply 10px margin-right to footer tag.
+apply 5px padding-left to span tag. apply 5px padding-right to span tag. apply 5px padding-top to span tag. apply 5px padding-bottom to span tag. apply visible overflow to span tag.
+apply 2px box-shadow to b tag. apply green color to b tag. apply 50px height to b tag. apply 50px width to b tag. apply border-box box-sizing to b tag.
+apply dotted border-style to i tag. apply orange border-color to i tag. apply 1px border-width to i tag. apply 2px padding-top to i tag. apply 2px margin-top to i tag.
+
+**Exercise 4**
+apply 400px height to form tag. apply 300px width to form tag. apply 2px border-width to form tag. apply inset border-style to form tag. apply purple border-color to form tag.
+apply border-box box-sizing to input tag. apply 8px margin-top to input tag. apply 8px margin-bottom to input tag. apply 0px margin-left to input tag. apply 0px margin-right to input tag.
+apply 12px padding-left to button tag. apply 12px padding-right to button tag. apply 6px padding-top to button tag. apply 6px padding-bottom to button tag. apply scroll overflow to button tag.
+apply 4px box-shadow to label tag. apply navy color to label tag. apply 30px height to label tag. apply 150px width to label tag. apply border-box box-sizing to label tag.
+apply solid border-style to select tag. apply black border-color to select tag. apply 1px border-width to select tag. apply 5px padding-top to select tag. apply 5px margin-top to select tag.
+
+**Exercise 5**
+apply 500px height to table tag. apply 500px width to table tag. apply 1px border-width to table tag. apply solid border-style to table tag. apply black border-color to table tag.
+apply border-box box-sizing to tr tag. apply 0px margin-top to tr tag. apply 0px margin-bottom to tr tag. apply 0px margin-left to tr tag. apply 0px margin-right to tr tag.
+apply 10px padding-left to td tag. apply 10px padding-right to td tag. apply 10px padding-top to td tag. apply 10px padding-bottom to td tag. apply hidden overflow to td tag.
+apply 1px box-shadow to th tag. apply white color to th tag. apply 40px height to th tag. apply 100px width to th tag. apply border-box box-sizing to th tag.
+apply dashed border-style to caption tag. apply gray border-color to caption tag. apply 2px border-width to caption tag. apply 8px padding-top to caption tag. apply 8px margin-top to caption tag.
+
+---
+
+### **4_background_properties.html**
+
+**Exercise 2**
+apply blue background-color to section tag. apply 1px border to section tag. apply 15px margin-bottom to section tag. apply large font-size to section tag. apply white color to section tag.
+apply left text-align to article tag. apply 80% opacity to article tag. apply green background-color to article tag. apply black color to article tag. apply medium font-size to article tag.
+apply url('bg.jpg') background-image to header tag. apply repeat-x background-repeat to header tag. apply top background-position to header tag. apply scroll background-attachment to header tag. apply screen background-blend-mode to header tag.
+apply coral background-color to footer tag. apply 100% opacity to footer tag. apply 3px border to footer tag. apply 5px margin-bottom to footer tag. apply right text-align to footer tag.
+apply gray background-color to nav tag. apply yellow color to nav tag. apply overlay background-blend-mode to nav tag. apply fixed background-attachment to nav tag. apply repeat-y background-repeat to nav tag.
+
+**Exercise 3**
+apply pink background-color to main tag. apply 4px border to main tag. apply 20px margin-bottom to main tag. apply small font-size to main tag. apply purple color to main tag.
+apply justify text-align to aside tag. apply 60% opacity to aside tag. apply cyan background-color to aside tag. apply darkblue color to aside tag. apply x-large font-size to aside tag.
+apply url('pattern.png') background-image to form tag. apply repeat background-repeat to form tag. apply left background-position to form tag. apply local background-attachment to form tag. apply darken background-blend-mode to form tag.
+apply lightgreen background-color to input tag. apply 90% opacity to input tag. apply 1px border to input tag. apply 2px margin-bottom to input tag. apply center text-align to input tag.
+apply black background-color to button tag. apply white color to button tag. apply lighten background-blend-mode to button tag. apply scroll background-attachment to button tag. apply no-repeat background-repeat to button tag.
+
+**Exercise 4**
+apply orange background-color to table tag. apply 2px border to table tag. apply 30px margin-bottom to table tag. apply xx-small font-size to table tag. apply brown color to table tag.
+apply center text-align to tr tag. apply 40% opacity to tr tag. apply beige background-color to tr tag. apply black color to tr tag. apply x-small font-size to tr tag.
+apply url('texture.png') background-image to th tag. apply no-repeat background-repeat to th tag. apply bottom background-position to th tag. apply fixed background-attachment to th tag. apply color-burn background-blend-mode to th tag.
+apply white background-color to td tag. apply 100% opacity to td tag. apply 1px border to td tag. apply 0px margin-bottom to td tag. apply left text-align to td tag.
+apply magenta background-color to caption tag. apply yellow color to caption tag. apply difference background-blend-mode to caption tag. apply local background-attachment to caption tag. apply repeat-x background-repeat to caption tag.
+
+**Exercise 5**
+apply teal background-color to ul tag. apply 3px border to ul tag. apply 10px margin-bottom to ul tag. apply large font-size to ul tag. apply white color to ul tag.
+apply right text-align to li tag. apply 75% opacity to li tag. apply lightblue background-color to li tag. apply navy color to li tag. apply medium font-size to li tag.
+apply url('dots.png') background-image to ol tag. apply repeat background-repeat to ol tag. apply right background-position to ol tag. apply scroll background-attachment to ol tag. apply hard-light background-blend-mode to ol tag.
+apply silver background-color to dl tag. apply 50% opacity to dl tag. apply 2px border to dl tag. apply 15px margin-bottom to dl tag. apply center text-align to dl tag.
+apply gold background-color to dt tag. apply red color to dt tag. apply exclusion background-blend-mode to dt tag. apply fixed background-attachment to dt tag. apply no-repeat background-repeat to dt tag.
+
+---
+
+### **5_layout.html**
+
+**Exercise 2**
+apply beige background-color to section tag. apply black color to section tag. apply 2px border to section tag. apply 200px height to section tag. apply 200px width to section tag.
+apply 24px font-size to header tag. apply left text-align to header tag. apply inline-block display to header tag. apply beige background-color to header tag. apply black color to header tag.
+apply 50px height to footer tag. apply 100% width to footer tag. apply 1px border to footer tag. apply right text-align to footer tag. apply inline-block display to footer tag.
+apply 16px font-size to nav tag. apply gray color to nav tag. apply 150px width to nav tag. apply inline-block display to nav tag. apply center text-align to nav tag.
+apply white background-color to main tag. apply 500px height to main tag. apply 18px font-size to main tag. apply 2px border to main tag. apply inline-block display to main tag.
+
+**Exercise 3**
+apply lightgreen background-color to aside tag. apply darkgreen color to aside tag. apply 1px border to aside tag. apply 300px height to aside tag. apply 250px width to aside tag.
+apply 32px font-size to figure tag. apply center text-align to figure tag. apply inline-block display to figure tag. apply lightgreen background-color to figure tag. apply darkgreen color to figure tag.
+apply 150px height to figcaption tag. apply 250px width to figcaption tag. apply 1px border to figcaption tag. apply justify text-align to figcaption tag. apply inline-block display to figcaption tag.
+apply 14px font-size to details tag. apply black color to details tag. apply 300px width to details tag. apply inline-block display to details tag. apply left text-align to details tag.
+apply pink background-color to summary tag. apply 40px height to summary tag. apply 20px font-size to summary tag. apply 2px border to summary tag. apply inline-block display to summary tag.
+
+**Exercise 4**
+apply lightblue background-color to form tag. apply navy color to form tag. apply 3px border to form tag. apply 400px height to form tag. apply 400px width to form tag.
+apply 18px font-size to input tag. apply left text-align to input tag. apply inline-block display to input tag. apply lightblue background-color to input tag. apply navy color to input tag.
+apply 40px height to button tag. apply 120px width to button tag. apply 1px border to button tag. apply center text-align to button tag. apply inline-block display to button tag.
+apply 16px font-size to label tag. apply black color to label tag. apply 100px width to label tag. apply inline-block display to label tag. apply right text-align to label tag.
+apply yellow background-color to select tag. apply 30px height to select tag. apply 14px font-size to select tag. apply 1px border to select tag. apply inline-block display to select tag.
+
+**Exercise 5**
+apply coral background-color to table tag. apply white color to table tag. apply 1px border to table tag. apply 300px height to table tag. apply 500px width to table tag.
+apply 16px font-size to tr tag. apply center text-align to tr tag. apply inline-block display to tr tag. apply coral background-color to tr tag. apply white color to tr tag.
+apply 50px height to td tag. apply 100px width to td tag. apply 1px border to td tag. apply left text-align to td tag. apply inline-block display to td tag.
+apply 18px font-size to th tag. apply black color to th tag. apply 100px width to th tag. apply inline-block display to th tag. apply center text-align to th tag.
+apply gray background-color to caption tag. apply 30px height to caption tag. apply 20px font-size to caption tag. apply 1px border to caption tag. apply inline-block display to caption tag.
+
+---
+
+### **6_layout_2.html**
+
+**Exercise 2**
+apply beige background-color to section tag. apply black color to section tag. apply 2px border to section tag. apply 200px height to section tag. apply 200px width to section tag.
+apply 24px font-size to header tag. apply center text-align to header tag. apply right float to header tag. apply beige background-color to header tag. apply black color to header tag.
+apply left clear to footer tag. apply 50px height to footer tag. apply 100% width to footer tag. apply 1px border to footer tag. apply right text-align to footer tag.
+apply right float to nav tag. apply right clear to nav tag. apply 16px font-size to nav tag. apply gray color to nav tag. apply 1px border to nav tag.
+apply white background-color to main tag. apply 500px height to main tag. apply right float to main tag. apply left clear to main tag. apply center text-align to main tag.
+
+**Exercise 3**
+apply lightgreen background-color to aside tag. apply darkgreen color to aside tag. apply 1px border to aside tag. apply 300px height to aside tag. apply 250px width to aside tag.
+apply 32px font-size to figure tag. apply center text-align to figure tag. apply left float to figure tag. apply lightgreen background-color to figure tag. apply darkgreen color to figure tag.
+apply both clear to figcaption tag. apply 150px height to figcaption tag. apply 250px width to figcaption tag. apply 1px border to figcaption tag. apply justify text-align to figcaption tag.
+apply left float to details tag. apply both clear to details tag. apply 14px font-size to details tag. apply black color to details tag. apply 1px border to details tag.
+apply pink background-color to summary tag. apply 40px height to summary tag. apply left float to summary tag. apply both clear to summary tag. apply center text-align to summary tag.
+
+**Exercise 4**
+apply lightblue background-color to form tag. apply navy color to form tag. apply 3px border to form tag. apply 400px height to form tag. apply 400px width to form tag.
+apply 18px font-size to input tag. apply left text-align to input tag. apply right float to input tag. apply lightblue background-color to input tag. apply navy color to input tag.
+apply right clear to button tag. apply 40px height to button tag. apply 120px width to button tag. apply 1px border to button tag. apply center text-align to button tag.
+apply right float to label tag. apply left clear to label tag. apply 16px font-size to label tag. apply black color to label tag. apply 1px border to label tag.
+apply yellow background-color to select tag. apply 30px height to select tag. apply right float to select tag. apply right clear to select tag. apply center text-align to select tag.
+
+**Exercise 5**
+apply coral background-color to table tag. apply white color to table tag. apply 1px border to table tag. apply 300px height to table tag. apply 500px width to table tag.
+apply 16px font-size to tr tag. apply center text-align to tr tag. apply left float to tr tag. apply coral background-color to tr tag. apply white color to tr tag.
+apply both clear to td tag. apply 50px height to td tag. apply 100px width to td tag. apply 1px border to td tag. apply left text-align to td tag.
+apply left float to th tag. apply both clear to th tag. apply 18px font-size to th tag. apply black color to th tag. apply 1px border to th tag.
+apply gray background-color to caption tag. apply 30px height to caption tag. apply left float to caption tag. apply both clear to caption tag. apply center text-align to caption tag.
+
+---
+
+### **7_layout_3.html**
+
+**Exercise 2**
+apply absolute position to header tag. apply 0px top to header tag. apply 0px left to header tag. apply beige background-color to header tag. apply black color to header tag.
+apply relative position to nav tag. apply 50px bottom to nav tag. apply 50px right to nav tag. apply 2 z-index to nav tag. apply 50px height to nav tag.
+apply white background-color to main tag. apply black color to main tag. apply fixed position to main tag. apply 100px bottom to main tag. apply 100px right to main tag.
+apply gray background-color to aside tag. apply white color to aside tag. apply sticky position to aside tag. apply 10px top to aside tag. apply 10px right to aside tag.
+apply visible visibility to form tag. apply 200px width to form tag. apply 18px font-size to form tag. apply left text-align to form tag. apply 2px border to form tag.
+
+**Exercise 3**
+apply fixed position to input tag. apply 20px top to input tag. apply 20px left to input tag. apply lightblue background-color to input tag. apply navy color to input tag.
+apply absolute position to button tag. apply 10px bottom to button tag. apply 10px right to button tag. apply 3 z-index to button tag. apply 40px height to button tag.
+apply yellow background-color to label tag. apply black color to label tag. apply relative position to label tag. apply 5px bottom to label tag. apply 5px right to label tag.
+apply pink background-color to select tag. apply white color to select tag. apply absolute position to select tag. apply 15px top to select tag. apply 15px right to select tag.
+apply hidden visibility to textarea tag. apply 300px width to textarea tag. apply 14px font-size to textarea tag. apply right text-align to textarea tag. apply 1px border to textarea tag.
+
+**Exercise 4**
+apply relative position to table tag. apply 100px top to table tag. apply 100px left to table tag. apply coral background-color to table tag. apply white color to table tag.
+apply absolute position to tr tag. apply 0px bottom to tr tag. apply 0px right to tr tag. apply 1 z-index to tr tag. apply 30px height to tr tag.
+apply teal background-color to td tag. apply white color to td tag. apply fixed position to td tag. apply 50px bottom to td tag. apply 50px right to td tag.
+apply orange background-color to th tag. apply black color to th tag. apply sticky position to th tag. apply 0px top to th tag. apply 0px left to th tag.
+apply visible visibility to caption tag. apply 100% width to caption tag. apply 20px font-size to caption tag. apply center text-align to caption tag. apply 1px border to caption tag.
+
+**Exercise 5**
+apply absolute position to ul tag. apply 200px top to ul tag. apply 200px left to ul tag. apply silver background-color to ul tag. apply black color to ul tag.
+apply fixed position to li tag. apply 10px bottom to li tag. apply 10px right to li tag. apply 4 z-index to li tag. apply 25px height to li tag.
+apply brown background-color to ol tag. apply white color to ol tag. apply relative position to ol tag. apply 30px bottom to ol tag. apply 30px right to ol tag.
+apply cyan background-color to dl tag. apply black color to dl tag. apply absolute position to dl tag. apply 40px top to dl tag. apply 40px right to dl tag.
+apply hidden visibility to dt tag. apply 150px width to dt tag. apply 16px font-size to dt tag. apply left text-align to dt tag. apply 2px border to dt tag.
+
+---
+
+### **8_class_selector.html**
+
+**Exercise 2**
+apply 1px border to .container class. apply 20px margin-bottom to .container class. apply white background-color to .container class. apply black color to .container class. apply dashed border-style to .container class.
+apply blue background-color to .text-center class. apply white color to .text-center class. apply 1px border to .text-center class. apply 20px margin-bottom to .text-center class. apply gray border-color to .text-center class.
+apply 1px border to p tag. apply 20px margin-bottom to p tag. apply white background-color to p tag. apply black color to p tag. apply dashed border-style to p tag.
+apply blue background-color to h2 tag. apply white color to h2 tag. apply 1px border to h2 tag. apply 20px margin-bottom to h2 tag. apply gray border-color to h2 tag.
+apply 1px border to section tag. apply 20px margin-bottom to section tag. apply white background-color to section tag. apply black color to section tag. apply dashed border-style to section tag.
+
+**Exercise 3**
+apply 3px border to .card class. apply 15px margin-bottom to .card class. apply lightgray background-color to .card class. apply navy color to .card class. apply dotted border-style to .card class.
+apply green background-color to .btn-primary class. apply white color to .btn-primary class. apply 3px border to .btn-primary class. apply 15px margin-bottom to .btn-primary class. apply darkgreen border-color to .btn-primary class.
+apply 3px border to article tag. apply 15px margin-bottom to article tag. apply lightgray background-color to article tag. apply navy color to article tag. apply dotted border-style to article tag.
+apply green background-color to button tag. apply white color to button tag. apply 3px border to button tag. apply 15px margin-bottom to button tag. apply darkgreen border-color to button tag.
+apply 3px border to header tag. apply 15px margin-bottom to header tag. apply lightgray background-color to header tag. apply navy color to header tag. apply dotted border-style to header tag.
+
+**Exercise 4**
+apply 4px border to .alert class. apply 5px margin-bottom to .alert class. apply pink background-color to .alert class. apply red color to .alert class. apply double border-style to .alert class.
+apply orange background-color to .warning class. apply black color to .warning class. apply 4px border to .warning class. apply 5px margin-bottom to .warning class. apply brown border-color to .warning class.
+apply 4px border to div tag. apply 5px margin-bottom to div tag. apply pink background-color to div tag. apply red color to div tag. apply double border-style to div tag.
+apply orange background-color to span tag. apply black color to span tag. apply 4px border to span tag. apply 5px margin-bottom to span tag. apply brown border-color to span tag.
+apply 4px border to footer tag. apply 5px margin-bottom to footer tag. apply pink background-color to footer tag. apply red color to footer tag. apply double border-style to footer tag.
+
+**Exercise 5**
+apply 5px border to .nav-item class. apply 30px margin-bottom to .nav-item class. apply cyan background-color to .nav-item class. apply darkblue color to .nav-item class. apply groove border-style to .nav-item class.
+apply purple background-color to .active class. apply white color to .active class. apply 5px border to .active class. apply 30px margin-bottom to .active class. apply magenta border-color to .active class.
+apply 5px border to li tag. apply 30px margin-bottom to li tag. apply cyan background-color to li tag. apply darkblue color to li tag. apply groove border-style to li tag.
+apply purple background-color to a tag. apply white color to a tag. apply 5px border to a tag. apply 30px margin-bottom to a tag. apply magenta border-color to a tag.
+apply 5px border to nav tag. apply 30px margin-bottom to nav tag. apply cyan background-color to nav tag. apply darkblue color to nav tag. apply groove border-style to nav tag.
+
+---
+
+### **9_id_selector.html**
+
+**Exercise 2**
+apply black color to #main id. apply white background-color to #main id. apply relative position to #main id. apply 10px top to #main id. apply 10px left to #main id.
+apply center text-align to h2 tag. apply 15px margin-bottom to h2 tag. apply 24px font-size to h2 tag. apply 50px padding-left to h2 tag. apply 50px padding-right to h2 tag.
+apply gray color to #sidebar id. apply lightgray background-color to #sidebar id. apply absolute position to #sidebar id. apply 0px bottom to #sidebar id. apply 20px right to #sidebar id.
+apply block display to article tag. apply 50% width to article tag. apply bottom vertical-align to article tag. apply 10px margin-top to article tag. apply 20px padding to article tag.
+apply square list-style-type to ol tag. apply blue color to li tag. apply lowercase text-transform to li tag. apply underline text-decoration to li tag. apply middle vertical-align to li tag.
+
+**Exercise 3**
+apply navy color to #hero id. apply lightblue background-color to #hero id. apply fixed position to #hero id. apply 50px top to #hero id. apply 50px left to #hero id.
+apply left text-align to h3 tag. apply 5px margin-bottom to h3 tag. apply 18px font-size to h3 tag. apply 20px padding-left to h3 tag. apply 20px padding-right to h3 tag.
+apply white color to #contact id. apply black background-color to #contact id. apply sticky position to #contact id. apply 10px bottom to #contact id. apply 10px right to #contact id.
+apply inline display to span tag. apply 100% width to span tag. apply baseline vertical-align to span tag. apply 5px margin-top to span tag. apply 5px padding to span tag.
+apply circle list-style-type to ul tag. apply green color to a tag. apply capitalize text-transform to a tag. apply line-through text-decoration to a tag. apply bottom vertical-align to a tag.
+
+**Exercise 4**
+apply darkgreen color to #about id. apply lightgreen background-color to #about id. apply absolute position to #about id. apply 100px top to #about id. apply 100px left to #about id.
+apply right text-align to h4 tag. apply 25px margin-bottom to h4 tag. apply 16px font-size to h4 tag. apply 10px padding-left to h4 tag. apply 10px padding-right to h4 tag.
+apply yellow color to #gallery id. apply orange background-color to #gallery id. apply relative position to #gallery id. apply 20px bottom to #gallery id. apply 20px right to #gallery id.
+apply flex display to section tag. apply 80% width to section tag. apply top vertical-align to section tag. apply 30px margin-top to section tag. apply 15px padding to section tag.
+apply decimal list-style-type to ol tag. apply purple color to p tag. apply uppercase text-transform to p tag. apply none text-decoration to p tag. apply top vertical-align to p tag.
+
+**Exercise 5**
+apply red color to #services id. apply pink background-color to #services id. apply fixed position to #services id. apply 200px top to #services id. apply 200px left to #services id.
+apply justify text-align to h5 tag. apply 30px margin-bottom to h5 tag. apply 14px font-size to h5 tag. apply 5px padding-left to h5 tag. apply 5px padding-right to h5 tag.
+apply brown color to #testimonials id. apply beige background-color to #testimonials id. apply sticky position to #testimonials id. apply 50px bottom to #testimonials id. apply 50px right to #testimonials id.
+apply grid display to div tag. apply 90% width to div tag. apply middle vertical-align to div tag. apply 40px margin-top to div tag. apply 25px padding to div tag.
+apply lower-alpha list-style-type to ul tag. apply cyan color to span tag. apply lowercase text-transform to span tag. apply overline text-decoration to span tag. apply middle vertical-align to span tag.
